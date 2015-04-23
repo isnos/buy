@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   
-  <title>highlight | Veolus</title>
+  <title>categories | Veolus</title>
   <meta name="author" content="Veolus">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="categories"/>
   <meta property="og:site_name" content="Veolus"/>
 
   
@@ -84,49 +84,54 @@
 
   <div class="container">
   	<div class="content">
-    	 
-
-<!-- title -->
+    	 <!-- title -->
 <div class="page-header">
-  <h1 class="archive-title-tag">highlight</h1>
+	 <h1><i class="fa fa-folder"></i> categories</h1>
 </div>
 
-<div class="row page">
-  <!-- cols -->
-  
-  <div class="col-md-9">
+<div class="row page"> 
+
+	
+	    <div class="col-md-9">
 	
 
-	  <div class="archive">
-		
-		
-		
+    
+        <div class="widget">
+			<ul class="tag_box inline list-unstyled">
 			
+				<li><a href="#Test">Test<span>1</span></a></li>
 			
-			<h4 class="archive-ul" data-toggle="collapse" data-target="#2015">2015<b class="caret"></b></h4>
-			<ul id="2015" class="collapse in">
-			
-		
-		<li class="listing-item">
-		<span class="date_class"> 2015-04-23 </span> &raquo;
-		
-		   <span class="title"><a href="/2015/04/23/test/"  title="A collection of Hello World applications from helloworld.org." >Hello World</a></span>
-		
-		</li>			
-		
-		</ul>
+			</ul>
 		</div>
+		
+        <div class="archive">
+		    
+		    <h4 class="archive-ul show" data-toggle="collapse" id="Test" data-target="#modal-Test"> Test <b class="caret"></b></h4>
+		    <ul id="modal-Test" class="collapse in">
 
-</div> <!-- col-md-9/col-md-12 -->
+		        
+			        
+		   	        <li class="listing-item"><a href="/2015/04/23/simplified-chinese-test/"  title="观音心经 - 般若波罗蜜多心经。" >简体中文测试</a></li>
+			        
+		        
+			        
+		        
+		   </ul>
+		   
+		   </ul>
+        </div>
+    
 
+</div> <!-- col-md-9 -->
 
-<div class="col-md-3">
+   
+	   <div class="col-md-3">
 	<div id="sidebar">
 	
 			<div class="form-group has-success has-feedback">
   <form action="//google.com/search" method="get" accept-charset="utf-8" >
     <input type="search" name="q" results="0" placeholder="搜索" class="form-control">
-    <input type="hidden" name="q" value="site:github.com/isnos/isnos.github.io">	
+    <input type="hidden" name="q" value="site:github.com/isnos/buy">	
   </form>
 </div>
 
@@ -136,7 +141,7 @@
 		<h4>分类</h4>
 		<ul class="tag_box inline list-unstyled">
 		
-			<li><a href="/categories/Hexo/">Hexo<span>1</span></a></li>
+			<li><a href="/categories/Test/">Test<span>1</span></a></li>
 		
 		</ul>
 	</div>
@@ -147,7 +152,7 @@
 		<h4>标签云</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/highlight/">highlight<span>1</span></a></li>
+			<li><a href="/tags/简体/">简体<span>1</span></a></li>
 		
 		 
 		</ul>
@@ -161,7 +166,7 @@
   <ul class="entry list-unstyled">
     
       <li>
-        <a href="/2015/04/23/test/"  title="A collection of Hello World applications from helloworld.org." ><i class="fa fa-file-o"></i>Hello World...</a>
+        <a href="/2015/04/23/simplified-chinese-test/"  title="观音心经 - 般若波罗蜜多心经。" ><i class="fa fa-file-o"></i>简体中文测试...</a>
       </li>
     
       <li>
@@ -189,8 +194,9 @@
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
 
+   
 
-
+</div> <!-- row-fluid -->
 
 	</div>
   </div>
@@ -218,7 +224,7 @@ var disqus_shortname = 'hackxy';
   var dsq = document.createElement('script');
   dsq.type = 'text/javascript';
   dsq.async = true;
-  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 }());
 </script>
