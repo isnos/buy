@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Veolus]]></title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/buy/atom.xml" rel="self"/>
   <link href="https://github.com/isnos/buy/"/>
   <updated>2015-04-23T08:30:10.017Z</updated>
   <id>https://github.com/isnos/buy/</id>
